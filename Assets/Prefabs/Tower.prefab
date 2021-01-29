@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4101667332088338207
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4101667332088338205}
+  - component: {fileID: 4101667332088338204}
+  m_Layer: 0
+  m_Name: Tower
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4101667332088338205
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4101667332088338207}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4101667332088338204
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4101667332088338207}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e453f3a3aea80c94882e5a1ffec6dca3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _humanInTowerRange: {x: 1, y: 5}
+  _humanTemplates:
+  - {fileID: 1115949227858678858, guid: bf39d118dc7eb124b8ee1549f158ff3d, type: 3}
+  - {fileID: 4235377022829534348, guid: 4ff567672c407da42b4c183a6d59c1f2, type: 3}
+  - {fileID: 3066430787140862314, guid: 5a59c4fdf2caa6c40a1e874c26eaa64e, type: 3}
+  - {fileID: 4995798728972045084, guid: 793f23e1e3a464245b4698a9fa9c1810, type: 3}
+  - {fileID: 1089688834334693300, guid: 39ea0aa0bb5d8164794d5ec0da7913bc, type: 3}
+  - {fileID: 5845119164060457679, guid: c90702e1b0763fa40956de8151aeca84, type: 3}
+  - {fileID: 8747887155556458610, guid: 077c2420555f3794a8b60821a39819f8, type: 3}
+  - {fileID: 1611712762625453467, guid: 35dcae5b96d7160419ea3990400b9037, type: 3}
+  - {fileID: 4732724996773041028, guid: 437d6478cb8003d4b97c62529e43534f, type: 3}
