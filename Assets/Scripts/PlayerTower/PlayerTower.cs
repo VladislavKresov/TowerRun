@@ -67,7 +67,7 @@ public class PlayerTower : MonoBehaviour
             rigidbody.useGravity = true;
             rigidbody.freezeRotation = false;            
             Vector3 randomOffset = new Vector3(Random.Range(-1, 1), Random.Range(0, 2), Random.Range(-1, 0));
-            rigidbody.AddExplosionForce(10, _humans[i].transform.position + randomOffset, 10, -1f, ForceMode.Impulse);           
+            rigidbody.AddExplosionForce(5, _humans[i].transform.position + randomOffset, 5, -1f, ForceMode.Impulse);           
         }
         _humans.RemoveRange(0, count);
 
